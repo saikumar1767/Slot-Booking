@@ -6,7 +6,7 @@ Theme : The Slot-Booking Project theme is to make appointment booking between pe
  - Express.js and Node.js
  - HTML, CSS, Javascript, ReactStrap, React.js for Frontend.
  
-The Steps to Setup the project locally are as follows:
+# The Steps to Setup the project locally are as follows:
 
 1.Firstly, install all the dependencies for both frontend and backend with the command:
   ### `npm install`

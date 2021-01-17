@@ -1,7 +1,7 @@
 # SLOT-BOOKING
 Theme : The Slot-Booking Project theme is to make appointment booking between people a lot easier which avoids the usual process of exchanging mails between people till they find a convenient time.
 
-## Technology Stack:
+## Technology stack:
  - MongoDB for database storage.
  - Express.js and Node.js
  - HTML, CSS, Javascript, ReactStrap, React.js for Frontend.

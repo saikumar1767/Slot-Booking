@@ -83,7 +83,7 @@ export default function SlotItems(props) {
 
   return (
     <div className="list" >
-          <div className="listitem">
+          <div className="listitem" onClick={()=>bookSlot()}>
             <p><i><b>Slot-{props.idx+1}</b></i></p>
             <p><i>Starts at : </i>{samorpm}</p>
             <p><i>Ends on : </i>{eamorpm}</p>

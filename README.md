@@ -14,7 +14,7 @@ Theme : The Slot-Booking Project theme is to make appointment booking between pe
 
 3.Then, make sure the local ports 3000 and 9997 are available in your pc, then run the command for both as:
   ### `npm start`
-Note: The End ports 3000 is for hosting FrontEnd and 9997 is for hosting backend.
+Note: The End ports 3000 is for hosting FrontEnd and 9997 is for hosting backend and clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
 ## The scenarios covered in this slot-booking application are:
 

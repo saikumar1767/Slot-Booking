@@ -75,8 +75,9 @@ app.get("/freeSlots", async (req, res) => {
 });
 
 app.post("/createfreeSlots", async (req, res) => {
-    const body = req.body; //body has stardatetime, enddatetime and location
-    //assuming each slot as 30min
+    const body = req.body; //body has stardatetime, enddatetime
+    const duration = body.duration;
+    //here assuming each slot as 30min
     //now creating 30min slots into slots collection
     let ssplitdatetime= body.startTime.toString().split("T");
     let stime=ssplitdatetime[1].split(":");
@@ -100,7 +101,7 @@ app.post("/createfreeSlots", async (req, res) => {
         else
             body.startTime = ssplitdatetime[0]+"T"+shrs+":"+smin+":00.000Z";
 
-        smin=smin+30;
+        smin=smin+duration; //can change duration here and create slots accordingly.
         if(smin>=60){
             smin=smin-60;
             shrs=shrs+1;

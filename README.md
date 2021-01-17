@@ -8,7 +8,7 @@ Theme : The Slot-Booking Project theme is to make appointment booking between pe
  
 ## The Steps to Setup the project locally are as follows:
 
-1.For quickly creating a react app click [here](https://github.com/facebook/create-react-app/blob/master/README.md)
+1.For quickly creating a react app click [here].(https://github.com/facebook/create-react-app/blob/master/README.md)
 
 2.Firstly, install all the dependencies for both frontend and backend with the command:
   ### `npm install`

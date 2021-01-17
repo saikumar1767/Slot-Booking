@@ -8,11 +8,13 @@ Theme : The Slot-Booking Project theme is to make appointment booking between pe
  
 ## The Steps to Setup the project locally are as follows:
 
-1.Firstly, install all the dependencies for both frontend and backend with the command:
-  ### `npm install`
-2.Install MongoDB, and start the server on the port 27017.
+1.For quickly creating a react app click [here](https://github.com/facebook/create-react-app/blob/master/README.md)
 
-3.Then, make sure the local ports 3000 and 9997 are available in your pc, then run the command for both as:
+2.Firstly, install all the dependencies for both frontend and backend with the command:
+  ### `npm install`
+3.Install MongoDB, and start the server on the port 27017.
+
+4.Then, make sure the local ports 3000 and 9997 are available in your pc, then run the command for both as:
   ### `npm start`
 Note: The End ports 3000 is for hosting FrontEnd and 9997 is for hosting backend and clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
